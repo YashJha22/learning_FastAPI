@@ -174,6 +174,3 @@ HTTPS relies on **TLS (Transport Layer Security)**, which replaced the outdated 
 | **`404 Not Found`** | *"That dish is not on our menu."* |
 | **`500 Error`** | *"The kitchen stove caught fire!"* |
 
-```
-
-```
