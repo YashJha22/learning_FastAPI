@@ -409,40 +409,6 @@ FastAPI/Pydantic can process incoming JSON and convert the data into Python obje
 
 ---
 
-# JSON.parse()
-
-`JSON.parse()` is mainly relevant when working with JavaScript.
-
-It converts JSON text into a JavaScript object.
-
-Example:
-
-```javascript
-const text = '{"name":"Yash","age":20}';
-
-const user = JSON.parse(text);
-```
-
-Then JavaScript can access:
-
-```javascript
-user.name
-```
-
-which gives:
-
-```text
-Yash
-```
-
-The general idea is:
-
-> A program converts JSON data into a data structure it can work with.
-
-For FastAPI, Pydantic handles much of this process for you.
-
----
-
 # How to Explain JSON
 
 If someone asks **"What is JSON?"**, you should be able to say:
