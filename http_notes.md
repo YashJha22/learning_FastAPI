@@ -1,4 +1,3 @@
-Here is the complete **HTTP & HTTPS Fundamentals** guide formatted as a single copyable block ready to paste directly into your Markdown file on GitHub:
 
 ```markdown
 # 🌐 HTTP & HTTPS Fundamentals
