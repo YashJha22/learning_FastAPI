@@ -94,6 +94,35 @@ The client can send the new product data in the request body:
 
 The server then creates the product and usually returns the newly created resource.
 
+### POST
+
+`POST` is used to create new data on the server.
+
+Example:
+
+```http
+POST /products
+````
+
+This means:
+
+* `POST` → create new data
+* `/products` → the products resource
+
+The client can send the new product data in the request body:
+
+```json
+{
+  "name": "Laptop",
+  "price": 50000
+}
+```
+
+The server then creates the product and usually returns the newly created resource.
+
+```
+```
+
 
 
 
