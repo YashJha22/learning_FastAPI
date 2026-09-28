@@ -120,8 +120,39 @@ The client can send the new product data in the request body:
 
 The server then creates the product and usually returns the newly created resource.
 
+
+
+## PUT
+
+```md
+### PUT
+
+`PUT` is used to replace an existing resource with new data.
+
+Example:
+
+```http
+PUT /products/5
 ```
+
+This means:
+
+- `PUT` → replace the existing data
+- `/products/5` → the product with ID `5`
+
+The client sends the new data in the request body:
+
+```json
+{
+  "name": "Laptop Pro",
+  "price": 70000
+}
 ```
+
+The server updates product `5` using the provided data.
+
+`PUT` generally represents a complete replacement of the resource.
+'''
 
 
 
