@@ -25,3 +25,47 @@ For example:
 /orders
 
 Each resource has its own URL, and different operations can be performed on these resources using HTTP methods.
+
+````md
+## 3. HTTP Methods
+
+HTTP methods tell the server what action the client wants to perform on a resource.
+
+```text
+HTTP Method → What do I want to do?
+URL         → Which resource?
+````
+
+The main HTTP methods used in REST APIs are:
+
+* `GET` → Read/retrieve data
+* `POST` → Create new data
+* `PUT` → Replace existing data
+* `PATCH` → Partially update existing data
+* `DELETE` → Delete data
+
+### GET
+
+`GET` is used to retrieve data from the server.
+
+Example:
+
+```http
+GET /products
+```
+
+This means:
+
+* `GET` → retrieve/read data
+* `/products` → the products resource
+
+To retrieve one specific product:
+
+```http
+GET /products/5
+```
+
+Here `/products/5` identifies product with ID `5`.
+
+
+
