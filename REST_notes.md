@@ -10,6 +10,7 @@ Example:
 Android App → API → Backend → Database
 
 The API defines how the Android app can communicate with the backend.
+The API defines the rules and format for how the client communicates with the server.
 
 ---
 ## 2. What is REST?
